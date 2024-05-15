@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion", "Depe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregation", "InterfaceSegregation\InterfaceSegregation.csproj", "{BEFE45FB-D1FE-444D-BB78-047AF04C7C2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "SingleResponsibility\SingleResponsibility.csproj", "{85E12C36-FFBE-498B-8828-973F40079800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitution", "LiskovSubstitution\LiskovSubstitution.csproj", "{60013AB9-E3D8-409F-86FC-E2D81D56C303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{BEFE45FB-D1FE-444D-BB78-047AF04C7C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEFE45FB-D1FE-444D-BB78-047AF04C7C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEFE45FB-D1FE-444D-BB78-047AF04C7C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85E12C36-FFBE-498B-8828-973F40079800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E12C36-FFBE-498B-8828-973F40079800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E12C36-FFBE-498B-8828-973F40079800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E12C36-FFBE-498B-8828-973F40079800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60013AB9-E3D8-409F-86FC-E2D81D56C303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60013AB9-E3D8-409F-86FC-E2D81D56C303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60013AB9-E3D8-409F-86FC-E2D81D56C303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60013AB9-E3D8-409F-86FC-E2D81D56C303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
